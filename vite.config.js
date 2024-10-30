@@ -8,14 +8,13 @@ export default defineConfig({
   resolve: {
     alias: {
       '/assets': '/public/assets',
-      export default {
         build: {
           rollupOptions: {
             external: ["/src/main.jsx"]
-          }
+          } 
        }
       }
     },
   },
 
-})
+)
